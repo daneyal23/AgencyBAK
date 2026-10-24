@@ -18,6 +18,7 @@ agency webapp. No application code yet.
 | `reports/Apero Advisors competitive landscape.md` | Competitor report: Apero Advisors teardown, similar agencies by segment and market, pricing benchmarks, openings, webapp implications |
 | `research_notes/Apero Advisors competitive landscape/` | Raw research notes behind the report, one file per topic, with sources |
 | `docs/DISCOVERY_QUESTIONS.md` | Open questions for the owner about the agency and the webapp; answer here |
+| `docs/DECISIONS.md` | The seven decisions to make first, with recommendations and status |
 
 ## Research caveats (2026-10-22)
 
@@ -30,6 +31,6 @@ agency webapp. No application code yet.
 
 ## Next steps
 
-1. Answer the first five questions in `docs/DISCOVERY_QUESTIONS.md`.
+1. Make the pending decisions in `docs/DECISIONS.md` (D1–D3 first).
 2. Paste Apero's site content to complete the teardown.
-3. Turn the answers into `docs/DECISIONS.md` and a webapp plan (scope, first version, stack).
+3. Turn the decisions into a webapp plan (scope, first version, stack).
