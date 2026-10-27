@@ -56,6 +56,96 @@ You own the ad accounts. We operate inside them. When the engagement ends, the h
 4. **Build** — Audiences and creative from the agreed ICP and offer — not from a generic industry template.
 5. **Start** — Confirm account ownership, TAM source (list/CRM), primary CTA, and markets. No spend until the destination and follow-up path work.
 
+## Step by step
+
+The full delivery, in order. Each step says what we do, what we need from you, and what you have at the end of it.
+
+### 1. Ownership and access check
+
+- **We do:** Confirm the ad accounts, Business Manager (or equivalent) and billing sit in your name. We get operator access with least privilege (only what the job needs). We audit any existing campaigns.
+- **You provide:** Admin access to grant us, or account creation in your name.
+- **You get:** Ad accounts you own, plus an audit of what has been running.
+
+### 2. Tracking
+
+- **We do:** Install the pixel or tag, set up the conversions API (server-side tracking that is more reliable than browser tracking alone), and send offline conversions from the CRM back to the platforms, so the ads optimize for real leads and held meetings, not clicks. We set UTM and naming rules.
+- **You get:** Ad platforms learning from your actual sales results.
+
+### 3. Audiences
+
+- **We do:** Build matched audiences from the same account and contact lists your outbound uses. We exclude customers and the anti-ICP, set up retargeting for site visitors, and use lookalikes only where they stay close to your target accounts.
+- **You get:** Ads shown to the companies you want to win.
+
+### 4. Channel plan and budget
+
+- **We do:** Choose channels by where your target accounts actually are (for example LinkedIn, Meta or Google), set budget caps and pacing, and write the pause rules up front.
+- **You provide:** Approval of budget and caps.
+- **You get:** A written channel plan with spend limits.
+
+### 5. Creative and copy
+
+- **We do:** Build ad variants from messages already proven in outbound or the strategy proof loop, matched to the landing page CTA.
+- **You get:** Ads that tell the same story as your emails and site.
+
+### 6. Landing path QA
+
+- **We do:** Test every ad's path end to end: click → page → form, booking or WhatsApp → CRM record with source.
+- **You get:** No spend until the follow-up path works.
+
+### 7. Launch
+
+- **We do:** Launch with a clear campaign structure and naming convention, so reports are readable.
+- **You get:** Live campaigns in your accounts.
+
+### 8. Optimize
+
+- **We do:** Judge on cost per qualified conversation and per held meeting, not on cheap clicks. We watch frequency (how often the same person sees an ad) and creative fatigue (when an ad stops working because people have seen it too often), then kill or scale by the written rules.
+- **You get:** Budget moving toward what creates meetings.
+
+### 9. Report and feed back
+
+- **We do:** Report into your CRM's language (inquiry, booked, held, pipeline), and pass winning angles back to outbound and the website.
+- **You get:** One view of what paid contributes, and messages that improve across channels.
+
+### 10. Transfer
+
+- **We do:** Hand over the campaign structure, audiences, tracking setup and the pause and scale rules.
+- **You get:** Everything, including the platform's learning history, stays in your accounts.
+
+## Technical terms, in plain words
+
+| Term | What it means |
+|---|---|
+| Business Manager | The account that owns your ad accounts, pages and pixels on Meta (other platforms have their own). |
+| Pixel / tag | Code on your site that tells the ad platform what visitors did. |
+| Conversions API | Sending conversion data from your server, more reliable than the browser alone. |
+| Offline conversion | A result from your CRM (a held meeting, a deal) sent back to the ad platform. |
+| Matched audience | An audience built by uploading your own list of companies or contacts. |
+| Match rate | The share of an uploaded list the platform could find. |
+| Lookalike | An audience of people similar to a list you provide. |
+| Retargeting | Showing ads to people who already visited your site. |
+| Exclusion | People or companies blocked from seeing an ad, such as current customers. |
+| CPM / CPC / CTR | Cost per thousand views / cost per click / share of viewers who clicked. |
+| CPL | Cost per lead. |
+| Cost per held meeting | Ad spend divided by meetings that actually happened. |
+| Frequency | How many times the same person sees your ad. |
+| Creative fatigue | When an ad stops performing because the audience has seen it too often. |
+| Attribution window | How long after a click or view a conversion is credited to the ad. |
+| Pacing | How evenly the budget is spent over time. |
+
+## Outcomes
+
+What you end up with, and how we measure it. Every number comes from your own ad accounts and CRM.
+
+| Outcome | How we measure it |
+|---|---|
+| Ads reach your target accounts | Match rate of uploaded lists; share of leads that fit the ICP |
+| Spend tied to real results | Cost per lead, and cost per held meeting, from CRM data |
+| Paid and outbound working together | Overlap between ad-engaged accounts and outbound target accounts |
+| Pipeline you can trace | Pipeline value from paid-sourced leads, recorded in your CRM |
+| Budget under control | Spend within caps; pause rules applied when cost per conversation is wrong |
+| You keep the learning | Accounts, pixels, audiences and history under your logins |
+
 ## What you own
 
 - Ad accounts, Business Manager (or equivalent), pixels, tags, and custom audiences

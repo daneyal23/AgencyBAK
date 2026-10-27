@@ -56,6 +56,90 @@ When the offer is still unproven, we do not pretend a full machine is ready. We 
 4. **Pressure-test** — Who you sell to, what you say, and what you refuse — against how buyers in your markets actually buy.
 5. **Start** — Short discovery on offer, proof, current pipeline, and constraints. No 40-slide kickoff theater.
 
+## Step by step
+
+The full delivery, in order. Each step says what we do, what we need from you, and what you have at the end of it.
+
+### 1. Discovery
+
+- **We do:** Learn the offer, pricing, current customers, current pipeline, and constraints (team size, budget, markets). We review recent closed-won and closed-lost deals, because the pattern is usually already in your history.
+- **You provide:** A short call and a list of recent wins and losses.
+- **You get:** A written summary of what we heard, for you to correct.
+
+### 2. Customer evidence
+
+- **We do:** Study your best customers: who bought, what triggered the purchase, who signed, and what they were using before. Where possible, we speak to two or three customers directly.
+- **You get:** A buying pattern grounded in real deals, not opinion.
+
+### 3. ICP and anti-ICP
+
+- **We do:** Turn the pattern into filters a list builder can apply: industry, size, location and model. We add buying triggers that can be seen and dated from outside, such as a new location, a first sales or ops hire, adopting a new system, or a merger. We write explicit exclusions (the anti-ICP) and tiers.
+- **You get:** An ICP that becomes a list, and a clear list of who you stop chasing.
+
+### 4. Personas and the buying committee
+
+- **We do:** Name the people involved in a purchase: the economic buyer (signs), the champion (pushes internally) and the user (lives with it). For each, we write their pains, what they care about, and what they need to see.
+- **You get:** Persona sheets your messaging and outreach can use.
+
+### 5. Offer and message architecture
+
+- **We do:** Structure each message as problem → proof → ask, with variants per persona and channel. We list the proof you already have (results, references, case studies) and the proof still missing.
+- **You get:** Message angles tied to real buying jobs, and a proof gap list.
+
+### 6. Channel and motion choice
+
+- **We do:** Choose how you reach buyers: email, phone, LinkedIn, WhatsApp, or a mix, based on how your buyers actually respond in each market. We outline the sequence: steps, timing, handoffs between channels, and stop conditions.
+- **You get:** A sequence outline ready to be written and built.
+
+### 7. List spec and stage map
+
+- **We do:** Write the list schema (the columns every account and contact needs) and the CRM stage model from first touch to held meeting, with exit criteria for each stage.
+- **You get:** Handoff documents that engineering, outbound and CRM work can start from directly.
+
+### 8. Proof loop
+
+- **We do:** When the offer is unproven, send roughly fifty hand-written emails before any automation. We log every reply and objection, then decide to revise or scale based on the evidence.
+- **You get:** Real reply evidence before you spend on tools, lists or ads.
+
+### 9. Operating brief
+
+- **We do:** Put it on one page: the ICP, tiers, messages, channels, stages, and the ignore list.
+- **You get:** A brief your team can run without us in the room.
+
+## Technical terms, in plain words
+
+| Term | What it means |
+|---|---|
+| GTM strategy | The plan for who you sell to, what you say, and how you reach them. |
+| ICP | Ideal customer profile: the companies you win most easily and profitably. |
+| Anti-ICP | The companies you deliberately do not chase. |
+| Firmographics | Company facts used as filters: industry, size, location. |
+| Buying trigger | A visible, datable event that makes a company more likely to buy now. |
+| Tiering | Ranking accounts (for example 1 to 4) so the best get the most effort. |
+| TAM / SAM / SOM | All possible buyers / the ones you can serve / the share you can realistically win. |
+| Persona | A description of one type of person in the buying decision. |
+| Buying committee | Everyone involved in a purchase: buyer, champion, users, blockers. |
+| Value proposition | Why this buyer should care, in their own terms. |
+| Message architecture | The structure behind every message: problem, proof, ask. |
+| Motion | How deals are created: outbound, inbound, partners, or a mix. |
+| Sequence | A planned series of touches across channels, with timing. |
+| Stop condition | What ends a sequence: a reply, a meeting, an opt-out. |
+| Win/loss analysis | Reviewing won and lost deals to see why each went that way. |
+| Proof loop | A small manual test that checks the message works before you scale it. |
+
+## Outcomes
+
+What you end up with, and how we measure it.
+
+| Outcome | How we measure it |
+|---|---|
+| An ICP that becomes a list | Filters a list builder can apply without asking us questions |
+| Focus | A written anti-ICP and ignore list |
+| Messages that earn replies | Reply rate and positive reply rate from the proof loop |
+| A clear first target set | Named accounts per tier |
+| Shared definitions | CRM stages and exit criteria agreed by sales and leadership |
+| An evidence-based decision | Revise or scale, decided from logged replies rather than opinion |
+
 ## What you own
 
 - The strategy brief, ICP/anti-ICP, list criteria, sequences, and CRM stage definitions

@@ -56,6 +56,99 @@ You own the codebase or CMS. We do not hold the keys. Updates, hosting decisions
 4. **Build** — Structure and write for the offer and proof that match your GTM — not generic industry filler.
 5. **Start** — Clarify audience, primary CTA, and where conversations already happen (CRM, phone, WhatsApp). Kill competing asks early.
 
+## Step by step
+
+The full delivery, in order. Each step says what we do, what we need from you, and what you have at the end of it.
+
+### 1. Discovery
+
+- **We do:** Agree the audience, the one primary call to action (CTA), and where conversations already happen: CRM, phone, calendar or WhatsApp.
+- **You provide:** A short call and access to your current site and analytics.
+- **You get:** A one-page brief: audience, primary CTA, follow-up path.
+
+### 2. Content and proof inventory
+
+- **We do:** Collect what you already have: services, prices if published, case studies, testimonials, logos, photos, team. We list what is missing.
+- **You get:** A content checklist, so writing does not stall halfway.
+
+### 3. Sitemap and wireframes
+
+- **We do:** Plan the information architecture (which pages exist and how they link) and draw wireframes (simple layouts without design) for the key pages.
+- **You get:** A sitemap and wireframes to approve before design starts.
+
+### 4. Copy
+
+- **We do:** Write the pages for the offer and proof that match your sales motion, using the same message as your outbound, not generic industry filler.
+- **You get:** Page copy for review.
+
+### 5. Design
+
+- **We do:** Set design tokens (colors, type, spacing), build reusable components, and design mobile-first.
+- **You get:** Page designs you approve before build.
+
+### 6. Build
+
+- **We do:** Build on a static or server-rendered stack, or a CMS you can edit, under your accounts. We treat Core Web Vitals (Google's speed and stability measures) as requirements and cover accessibility basics (contrast, alt text, keyboard use).
+- **You get:** A fast site you own.
+
+### 7. Lead wiring
+
+- **We do:** Connect forms to CRM fields, with hidden fields that capture UTM and source data. We embed your calendar, add WhatsApp click-to-chat where it fits the market, add spam protection, and add a cookie or consent banner where the law requires one.
+- **You get:** Every enquiry lands in your CRM or WhatsApp with its source attached.
+
+### 8. Analytics
+
+- **We do:** Set up GA4 conversion events for real outcomes (form submitted, call booked, WhatsApp clicked) and connect Search Console.
+- **You get:** Tracking that measures enquiries, not just traffic.
+
+### 9. SEO foundations
+
+- **We do:** Write titles and meta descriptions, set a clean heading structure, add schema markup, an XML sitemap and robots rules. When replacing an old site, we map 301 redirects so existing rankings are not lost.
+- **You get:** A site search engines can read and rank.
+
+### 10. QA
+
+- **We do:** Test on phones and desktops, submit every form end to end into the CRM, and check speed and broken links.
+- **You get:** A site tested the way buyers will use it.
+
+### 11. Launch and handoff
+
+- **We do:** Point DNS, confirm SSL, go live, and hand over admin access, deploy notes, and a short guide to editing pages.
+- **You get:** A live site on your domain that you can change without us.
+
+## Technical terms, in plain words
+
+| Term | What it means |
+|---|---|
+| CTA (call to action) | The one thing you want a visitor to do, such as book a call. |
+| Information architecture | How pages are organized and linked. |
+| Wireframe | A simple page layout without colors or images. |
+| CMS | A content management system: a tool for editing the site without code. |
+| Static / server-rendered | Ways of building pages that load fast and are easy for search engines to read. |
+| Design tokens | The fixed set of colors, fonts and spacing the whole site uses. |
+| Core Web Vitals | Google's measures of loading speed (LCP), responsiveness (INP) and layout stability (CLS). |
+| Accessibility | Making the site usable for everyone, including people using screen readers. |
+| UTM | Tags on a link that say where a visitor came from. |
+| Hidden field | A form field the visitor does not see, used to pass source data to the CRM. |
+| GA4 event | A tracked action in Google Analytics, such as a form submission. |
+| Schema markup | Code that tells search engines what a page is about: a business, a service, a location. |
+| 301 redirect | A permanent forward from an old page address to the new one. |
+| DNS | The settings that point your domain to your site and email. |
+| SSL | The security certificate behind the padlock in the browser. |
+
+## Outcomes
+
+What you end up with, and how we measure it.
+
+| Outcome | How we measure it |
+|---|---|
+| A fast site | Core Web Vitals pass on key pages |
+| Visitors who act | Conversion rate on the primary CTA |
+| No lost leads | Share of enquiries that reach the CRM or WhatsApp with a source |
+| Quick follow-up | Time from enquiry to first reply, in your CRM |
+| Rankings kept on relaunch | Old URLs redirected; search traffic compared before and after |
+| You control it | You can publish a page edit without us |
+
 ## What you own
 
 - Domain, hosting, CMS or repository, and design assets produced for the site

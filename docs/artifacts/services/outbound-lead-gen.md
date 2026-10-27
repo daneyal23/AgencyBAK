@@ -59,6 +59,100 @@ Measurement lives in *your* CRM. We do not grade success on screenshots of a thi
 4. **Build** — Domains, warming, enrichment, sequences, CRM fields, and the first defensible account set.
 5. **Start** — Operating truth: ICP, offer, economics, current tools, and what “a good meeting” means in your business.
 
+## Step by step
+
+The full delivery, in order. Each step says what we do, what we need from you, and what you have at the end of it.
+
+### 1. Operating truth
+
+- **We do:** Agree the ICP, the offer, the economics, and what a good meeting means in your business (who must attend, what must be discussed for it to count as held).
+- **You provide:** The owner or sales lead, plus any past outbound results.
+- **You get:** A written definition of a qualified held meeting.
+
+### 2. Sending infrastructure
+
+- **We do:** Buy separate sending domains, never your main website domain. We set the DNS records that prove your email is genuine: SPF, DKIM and DMARC. We create mailboxes, set up a custom tracking domain or turn open tracking off, and warm up every inbox before real volume.
+- **You provide:** Billing for domains and mailboxes in your name.
+- **You get:** Sending infrastructure you own, separate from your main domain.
+
+### 3. List build
+
+- **We do:** Build the account and contact list from the ICP, enrich it, and validate every email. We apply suppression (customers, open deals, recent contacts, past opt-outs) and tier the list so the best accounts are worked first.
+- **You get:** A clean, tiered list in tools you own.
+
+### 4. Copy
+
+- **We do:** Write sequences: subject lines, openers, the value line, the call to action and follow-ups. We use personalization variables (details that change per prospect) and spintax (controlled wording variation, so emails are not identical). Every message goes through a spam-word check and is sent as plain text.
+- **You provide:** Approval on tone and claims.
+- **You get:** Copy ready to send, without a rewrite pass.
+
+### 5. CRM wiring
+
+- **We do:** Add CRM fields for contacted, replied, booked and held, plus source and campaign. We sync replies and meetings back to the CRM automatically.
+- **You get:** Outbound results recorded where you already work.
+
+### 6. Controlled launch
+
+- **We do:** Start at low volume with a daily send cap per inbox. We watch bounce rate, spam complaints and inbox placement (whether mail lands in the inbox or spam). Campaigns pause automatically if thresholds are crossed.
+- **You get:** A launch that protects your domains while the data comes in.
+
+### 7. Reply handling
+
+- **We do:** Sort every reply: interested, objection, not now, out of office, wrong person, unsubscribe. Interested replies go to an owner with a booking link. Opt-outs are honored straight away. No-shows get a follow-up and a reschedule.
+- **You get:** No warm reply sitting unanswered, and no-shows chased instead of forgotten.
+
+### 8. Weekly truth check
+
+- **We do:** Review booked vs held meetings by segment and source. We run A/B tests on one variable at a time (subject, opener or offer) and drop what does not work.
+- **You get:** A weekly view of which lists and messages create meetings that actually happen.
+
+### 9. Scale
+
+- **We do:** Add inboxes and segments gradually, once deliverability and show rates hold. Segments stay separate, so one bad list cannot hurt the rest.
+- **You get:** More volume without losing deliverability.
+
+### 10. Transfer
+
+- **We do:** Hand over domains, inboxes, lists, sequences, reports and runbooks for list refresh, sequence edits and the weekly review, with training on how to pause safely.
+- **You get:** A motion your team can keep running.
+
+## Technical terms, in plain words
+
+| Term | What it means |
+|---|---|
+| Sending domain | A separate domain used only for cold email, so your main domain stays safe. |
+| SPF / DKIM / DMARC | DNS records that prove to inbox providers your emails are really from you. |
+| Warm-up | Slowly building a new inbox's reputation before sending real volume. |
+| Inbox placement | Whether your email lands in the inbox, promotions or spam. |
+| Deliverability | Your overall ability to reach the inbox. |
+| Bounce rate | The share of emails that could not be delivered. |
+| Spam complaint rate | The share of recipients who marked your email as spam. |
+| Send cap | The maximum emails one inbox sends per day. |
+| Sequence | A planned series of emails or touches, with timing. |
+| Personalization variable | A detail that changes per prospect, such as company name or a recent event. |
+| Spintax | Controlled wording variation, so not every email is identical. |
+| Suppression list | People and companies who must never be emailed. |
+| Email validation | Checking an address exists before sending to it. |
+| Catch-all | A domain that accepts any address, so validation cannot confirm it. |
+| Positive reply rate | The share of contacts who replied with interest. |
+| Show rate | Held meetings divided by booked meetings. |
+| A/B test | Sending two versions to see which performs better, changing one thing at a time. |
+| Opt-out | A request to stop emailing, honored immediately and kept on the suppression list. |
+
+## Outcomes
+
+What you end up with, and how we measure it. Every number comes from your own tools and CRM.
+
+| Outcome | How we measure it |
+|---|---|
+| Healthy sending | Bounce rate, spam complaint rate, inbox placement tests |
+| Messages that land | Reply rate and positive reply rate per segment |
+| Meetings booked | Booked meetings per week, by segment and source |
+| Meetings that happen | Held meetings and show rate |
+| Spend that makes sense | Cost per held meeting (the same formula as our free calculator) |
+| Pipeline you can trace | Pipeline value created from held meetings, recorded in your CRM |
+| You keep the motion | Domains, inboxes, lists and reports all under your logins |
+
 ## What you own
 
 Domains and DNS. Inboxes and sequencer seats. Lists and enrichment workspaces. Sequence copy and playbooks. CRM objects, properties, and dashboards. Historical send and reply data.
