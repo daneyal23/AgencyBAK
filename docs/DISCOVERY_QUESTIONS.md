@@ -11,8 +11,12 @@ Status: open. Drafted 2026-10-22 from the competitor research in
   traditional SMEs (manufacturing, logistics, construction, distribution), local/consumer SMBs
   (clinics, real estate, home services, ecommerce). Not B2B SaaS.
 - **Services:** outbound & lead gen, GTM engineering (Clay, n8n, AI workflows), CRM & RevOps,
+  GTM strategy, websites, paid ads, SEO, AI automation & agentic workflows. Marketed pages:
+  `docs/artifacts/services/`.
   GTM strategy, websites, paid ads, SEO, AI automation.
-- **Direct competitor:** Apero Advisors (aperoadvisors.com). Their site text is still to be pasted.
+- **Direct competitor:** Apero Advisors (aperoadvisors.com). Site read 2026-10-25: Single-Channel
+  from $15k / $7.5k/mo; Embedded from $50k+ / $20k+/mo; PE/vertical-vendor buyers; case studies
+  for private-credit origination and Trackstar.
 
 ## Answer these five first
 
@@ -86,4 +90,4 @@ These five decide the shape of the webapp.
 
 ## Things you said you'd send
 
-- [ ] Apero Advisors website text or screenshots (homepage, services, about, case studies, pricing)
+- [x] Apero Advisors website text (homepage, about, case studies, pricing, PE page — read 2026-10-25)

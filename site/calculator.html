@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Held-meeting ROI calculator — AgencyBAK</title>
+  <meta name="description" content="Audit-style cost-per-held calculator. Your numbers, published formula, no invented AgencyBAK averages." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-tool">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header site-header--solid">
+    <a class="logo" href="index.html">AgencyBAK</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html#packages">Packages</a>
+      <a href="index.html#services">Capabilities</a>
+      <a href="calculator.html" aria-current="page">Tool</a>
+      <a href="dashboard.html">Results</a>
+      <a href="index.html#how">How we work</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main" class="tool-main">
+    <header class="tool-intro band-inner">
+      <p class="tool-kicker">Working paper · not a pitch deck</p>
+      <h1>Cost per held meeting</h1>
+      <p class="lede">Booked invites are theatre. Held meetings survive a weekly review. Enter spend and show rate — the primary number is what each held meeting actually costs.</p>
+      <p class="cred-strip">
+        <a href="#formula">Published formula</a>
+        <span aria-hidden="true">·</span>
+        <span>No AgencyBAK averages invented</span>
+        <span aria-hidden="true">·</span>
+        <span>Market ref: pay-per-held ~$600–$900 · SDR ~$10–14k/mo</span>
+      </p>
+    </header>
+
+    <div class="tool-layout band-inner">
+      <div class="tool-inputs">
+        <div class="panel-label">Your numbers</div>
+        <div class="preset-row" role="group" aria-label="Scenario presets">
+          <span class="preset-label">Scenarios</span>
+          <button type="button" class="preset" data-preset="soft" id="preset-soft">Soft</button>
+          <button type="button" class="preset is-active" data-preset="honest" id="preset-honest">Honest</button>
+          <button type="button" class="preset" data-preset="harsh" id="preset-harsh">Harsh</button>
+        </div>
+        <p class="hint preset-hint">Presets only change the inputs below. Same formula every time.</p>
+
+        <form id="roi-form" class="tool-form" novalidate>
+          <label>
+            Monthly outbound / agency spend (USD)
+            <input id="spend" name="spend" type="number" min="0" step="1" value="6500" required />
+            <span class="hint">Retainers often $2.5k–$8k before tools.</span>
+          </label>
+          <label>
+            Meetings booked / month
+            <input id="booked" name="booked" type="number" min="0" step="1" value="14" required />
+          </label>
+          <label>
+            Show rate (held ÷ booked)
+            <input id="showRate" name="showRate" type="number" min="0" max="100" step="1" value="45" required />
+            <span class="hint">Honest default 45%. Editable — not a promise.</span>
+          </label>
+          <label>
+            Pipeline value per held meeting (USD)
+            <input id="value" name="value" type="number" min="0" step="1" value="8000" required />
+          </label>
+          <label>
+            Meetings from other sources / month
+            <input id="other" name="other" type="number" min="0" step="1" value="0" />
+            <span class="hint">Optional. Subtracted so outbound isn’t credited for everything.</span>
+          </label>
+        </form>
+      </div>
+
+      <div class="tool-out">
+        <div class="panel-label">Working paper</div>
+        <section id="results" class="results paper" aria-live="polite" aria-atomic="true">
+          <p class="hero-metric-label">Cost per held</p>
+          <p class="hero-metric" id="out-cost">—</p>
+          <p class="assumption-chips" id="assumption-chips"></p>
+
+          <div class="gap-block" aria-label="Booked versus held cost comparison">
+            <div class="gap-row">
+              <span class="gap-name">If you counted booked</span>
+              <span class="gap-val mono" id="out-cost-booked">—</span>
+            </div>
+            <div class="gap-track" aria-hidden="true">
+              <div class="gap-fill gap-fill--booked" id="bar-booked"></div>
+            </div>
+            <div class="gap-row">
+              <span class="gap-name">Cost per held (truth)</span>
+              <span class="gap-val mono" id="out-cost-held-dup">—</span>
+            </div>
+            <div class="gap-track" aria-hidden="true">
+              <div class="gap-fill gap-fill--held" id="bar-held"></div>
+            </div>
+            <p class="hint" id="gap-note"></p>
+          </div>
+
+          <dl class="result-grid secondary">
+            <div><dt>Outbound booked</dt><dd class="mono" id="out-booked">—</dd></div>
+            <div><dt>Held / month</dt><dd class="mono" id="out-held">—</dd></div>
+            <div><dt>Implied pipeline / mo</dt><dd class="mono" id="out-pipe">—</dd></div>
+            <div><dt>ROI signal</dt><dd class="mono" id="out-roi">—</dd></div>
+          </dl>
+          <p class="fine">ROI signal = pipeline ÷ spend. Illustrative only — not a forecast.</p>
+        </section>
+
+        <section id="gate" class="gate paper">
+          <h2>Breakdown preview</h2>
+          <p class="hint">Already computed from your inputs. Email or print keeps the assumptions with the numbers.</p>
+          <pre class="breakdown-preview" id="breakdown-preview" tabindex="0"></pre>
+          <label>
+            Work email
+            <input id="email" type="email" autocomplete="email" placeholder="you@company.com" />
+          </label>
+          <div class="cta-row">
+            <button type="button" class="btn primary" id="email-btn">Email me this breakdown</button>
+            <button type="button" class="btn ghost" id="print-btn">Print / save PDF</button>
+          </div>
+          <p id="gate-status" class="hint" role="status"></p>
+        </section>
+      </div>
+    </div>
+
+    <div class="band-inner tool-meta" id="formula">
+      <details class="formula" open>
+        <summary>Published formula</summary>
+        <pre>held            = outbound_booked × show_rate
+outbound_booked = max(0, booked − other_sources)
+cost_per_held   = monthly_spend ÷ held
+cost_per_booked = monthly_spend ÷ outbound_booked   // vanity view
+pipeline        = held × value_per_held
+roi_signal      = pipeline ÷ monthly_spend</pre>
+      </details>
+      <p class="fine">Why booked ≠ held: platform-wide cold-email reply rates sit near ~3.43% — accepts still no-show. This tool never multiplies by that rate unless you change your own inputs.</p>
+    </div>
+
+    <section id="print-sheet" class="print-sheet band-inner" aria-hidden="true">
+      <h2>AgencyBAK — held-meeting breakdown</h2>
+      <pre id="print-body"></pre>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p><a href="index.html#packages">See packages</a> · <a href="index.html#contact">Contact</a></p>
+    <p class="fine">© AgencyBAK · Calculator v0</p>
+  </footer>
+
+  <script type="module" src="js/calculator-page.js"></script>
+</body>
+</html>

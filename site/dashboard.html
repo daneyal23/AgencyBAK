@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Client results — AgencyBAK</title>
+  <meta name="description" content="Booked vs held working paper. Manual weekly entry until CRM sync." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-tool">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header site-header--solid">
+    <a class="logo" href="index.html">AgencyBAK</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html#packages">Packages</a>
+      <a href="calculator.html">Tool</a>
+      <a href="dashboard.html" aria-current="page">Results</a>
+      <a href="index.html#how">How we work</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main" class="tool-main">
+    <header class="tool-intro band-inner">
+      <p class="tool-kicker">Client results · working paper</p>
+      <h1>Booked vs held</h1>
+      <p class="lede">Log a week the way an owner should review it. Ghosts stay visible. Cost per held uses your spend — same truth as the calculator.</p>
+      <p class="cred-strip">
+        <span>Manual entry v0</span>
+        <span aria-hidden="true">·</span>
+        <span>Stored in this browser</span>
+        <span aria-hidden="true">·</span>
+        <span>Supabase / CRM sync later</span>
+      </p>
+    </header>
+
+    <div class="tool-layout band-inner dash-layout">
+      <div class="tool-inputs">
+        <div class="panel-label">Add a week</div>
+        <form id="week-form" class="tool-form" novalidate>
+          <label>
+            Week label
+            <input id="week-label" name="label" type="text" placeholder="2026-W42" required />
+          </label>
+          <label>
+            Contacted
+            <input id="contacted" type="number" min="0" step="1" value="0" />
+          </label>
+          <label>
+            Replied
+            <input id="replied" type="number" min="0" step="1" value="0" />
+          </label>
+          <label>
+            Booked
+            <input id="booked" type="number" min="0" step="1" value="0" required />
+          </label>
+          <label>
+            Held
+            <input id="held" type="number" min="0" step="1" value="0" required />
+          </label>
+          <label>
+            Pipeline added (USD)
+            <input id="pipeline" type="number" min="0" step="1" value="0" />
+          </label>
+          <label>
+            Spend this week (USD)
+            <input id="spend" type="number" min="0" step="1" value="0" />
+            <span class="hint">Optional. Needed for cost per held.</span>
+          </label>
+          <div class="cta-row">
+            <button type="submit" class="btn primary">Save week</button>
+          </div>
+          <p id="form-status" class="hint" role="status"></p>
+        </form>
+      </div>
+
+      <div class="tool-out">
+        <div class="panel-label">Truth panel</div>
+        <section class="results paper" aria-live="polite">
+          <p class="hero-metric-label">Cost per held (all logged weeks)</p>
+          <p class="hero-metric" id="tot-cost-held">—</p>
+          <p class="assumption-chips">
+            Show rate <span id="tot-show">—</span>
+            · booked <span id="tot-booked">—</span>
+            · held <span id="tot-held">—</span>
+          </p>
+
+          <div class="gap-block">
+            <div class="gap-row">
+              <span class="gap-name">Cost per booked</span>
+              <span class="gap-val mono" id="tot-cost-booked">—</span>
+            </div>
+            <div class="gap-track" aria-hidden="true">
+              <div class="gap-fill gap-fill--booked" id="bar-booked"></div>
+            </div>
+            <div class="gap-row">
+              <span class="gap-name">Cost per held</span>
+              <span class="gap-val mono" id="tot-cost-held-line">—</span>
+            </div>
+            <div class="gap-track" aria-hidden="true">
+              <div class="gap-fill gap-fill--held" id="bar-held"></div>
+            </div>
+            <p class="hint" id="truth-note"></p>
+          </div>
+
+          <dl class="result-grid secondary">
+            <div><dt>Pipeline logged</dt><dd class="mono" id="tot-pipe">—</dd></div>
+            <div><dt>Spend logged</dt><dd class="mono" id="tot-spend">—</dd></div>
+          </dl>
+        </section>
+      </div>
+    </div>
+
+    <div class="band-inner dash-table-wrap">
+      <div class="panel-label">Weekly log</div>
+      <div class="table-scroll paper">
+        <table class="weeks-table">
+          <thead>
+            <tr>
+              <th>Week</th>
+              <th>Contacted</th>
+              <th>Replied</th>
+              <th>Booked</th>
+              <th>Held</th>
+              <th>Pipeline</th>
+              <th>Spend</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="weeks-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="band-inner tool-meta dash-io">
+      <div class="panel-label">Export / import</div>
+      <p class="hint">JSON stays with you until Supabase. Useful for demos and handoff stubs.</p>
+      <textarea id="export-box" class="breakdown-preview dash-json" rows="8" spellcheck="false"></textarea>
+      <div class="cta-row">
+        <button type="button" class="btn primary" id="export-btn">Download JSON</button>
+        <button type="button" class="btn ghost" id="import-btn">Import from box</button>
+        <button type="button" class="btn ghost" id="seed-btn">Restore sample weeks</button>
+      </div>
+      <p id="import-status" class="hint" role="status"></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p><a href="calculator.html">Held-meeting calculator</a> · <a href="index.html#packages">Packages</a></p>
+    <p class="fine">© AgencyBAK · Results dashboard v0</p>
+  </footer>
+
+  <script type="module" src="js/dashboard-page.js"></script>
+</body>
+</html>

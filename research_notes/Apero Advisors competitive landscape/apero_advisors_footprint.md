@@ -1,6 +1,6 @@
 # Apero Advisors (aperoadvisors.com): off-site footprint and competitor profile
 
-> **How this was sourced (read first).** Research was done on 22 Oct 2026. WebFetch failed with DNS errors (`getaddrinfo ENOTFOUND`) for every domain tried: community.clay.com (both suggested member URLs), zoominfo.com, datanyze.com, x.com and goosetheftauto.com. No page was opened directly. Every finding below comes from **WebSearch result titles, snippets and the search tool's summaries** of indexed pages. Treat each one as "indexed claim, not read in full". Some findings come from snippets of aperoadvisors.com pages (About, home, media, blog). They are included because they showed up in off-site searches, and the separate site-retrieval process should confirm them. The session's shared web-search budget ran out before every question was covered; the Gaps sections show what is still open. Similar names that are **not** Apero Advisors were excluded: Apero Technologies Group (Vietnam), Apeiro Advisory & Business Solutions, Apero Health, Aperio Group and the other investment advisers named in the brief.
+> **How this was sourced (read first).** Primary Apero pages were read on **25–26 Oct 2026**: [home](https://aperoadvisors.com/), [About](https://aperoadvisors.com/about), [Pricing](https://aperoadvisors.com/pricing), [Case studies](https://aperoadvisors.com/case-studies), [Private equity](https://aperoadvisors.com/private-equity), plus a **services deep dive** on [GTM engineering](https://aperoadvisors.com/services/gtm-engineering), [FAQ](https://aperoadvisors.com/resources/faq), [vs Clay agency](https://aperoadvisors.com/compare/apero-vs-clay-agency), [HubSpot](https://aperoadvisors.com/stack/hubspot) and [Salesforce](https://aperoadvisors.com/stack/salesforce) — see `services_intel.md`. Off-site findings (podcasts, Maven, Clay community, aggregators) still come from the **22 Oct 2026** search pass unless marked site-verified. Similar names that are **not** Apero Advisors were excluded: Apero Technologies Group (Vietnam), Apeiro Advisory & Business Solutions, Apero Health, Aperio Group and other investment advisers.
 
 ## 1. Who founded / runs Apero Advisors: background, location, founding year, team size
 
@@ -69,79 +69,61 @@ Michael Slawson founded Apero Advisors and runs it as President & CEO. He came f
 ## 2. Services and offers described publicly
 
 ### Takeaway
-Apero calls itself a "GTM engineering firm". It builds account/contact universes, signal systems, CRM and revenue workflows, outbound infrastructure and lifecycle programs, and offers "embedded GTM engineering capacity". It leans on a HubSpot-plus-calling motion. Alongside client work it sells paid Clay courses on Maven and runs free live lessons.
+Apero brands as **"GTM engineering for complex markets"**. Every engagement touches four layers — Accounts, Channels, Messaging, and the system around them — and sells named capabilities plus two published engagement shapes (Single-Channel Build and Embedded GTM Engineering). The commercial example stack is **HubSpot shop, calling-led**. A dedicated PE page frames the same tiers for portcos. Off-site, Slawson and Holley also sell Clay courses and free Maven lessons.
 
 ### Cited Findings
-- Self-description: "Apero Advisors is a GTM engineering firm. We build the data, systems, workflows, and operating motions that make growth repeatable for B2B teams in complex markets." — [Apero home (search snippet)](https://aperoadvisors.com/)
-- Service areas listed: account and contact universes, signal systems, CRM and revenue workflows, outbound infrastructure, lifecycle programs, and embedded GTM engineering capacity. — [Apero home/About (search summary)](https://aperoadvisors.com/)
-- Typical stack, per a site snippet:
-  - Accounts: Apollo, Clay, Google Maps scraping
-  - Channels: Kixie (dialer), Smartlead, HubSpot Sequences
-  - CRM: HubSpot
-  - The site describes the firm as a "HubSpot shop, calling-led GTM partner".
-  - Source: [Apero home (search snippet)](https://aperoadvisors.com/)
-- Focus areas named on the site: private-equity value creation, post-acquisition GTM, PE deal origination for funds, and cold-email infrastructure. — [Apero home (search summary)](https://aperoadvisors.com/)
-- Slawson's framework has four pillars: accounts, channels, messaging, and a RevOps layer around all three. It also covers SLAs and follow-up cadence at the marketing-to-sales handoff. — [[A] Growth Ventures Podcast](https://azariangrowthagency.com/a-growth-ventures-podcast/michael-slawson-gtm-systems/) (May 2026)
-- He argues outbound channels "decline gradually rather than dying outright", so positioning around complexity matters more than any one tool. Episode title: "Cold Email Alone Doesn't Work". — [Outbound Wizards (iVoox)](https://www.ivoox.com/en/cold-email-alone-doesn8217t-work-ft-michael-slawson-audios-mp3_rf_170490743_1.html) (Mar 2026)
-- **Education products on Maven:**
-  - Two paid, multi-day guided courses: a TAM-sourcing course built on Clay and a "Deal Intelligence" course built on Clay.
-  - Free lightning lessons co-taught with Ben Holley: "How to think in bets for GTM", "Today, watch us build and deploy a GTM agent", "How to build a Github repo for your revops and GTM system".
-  - Sources: [Maven profile](https://maven.com/michael-slawson); [Maven lesson: GTM agent](https://maven.com/p/5ac67e/today-watch-us-build-and-deploy-a-gtm-agent); [Maven lesson: GitHub repo for RevOps](https://maven.com/p/8de172/how-to-build-a-github-repo-for-your-revops-and-gtm-system)
-- Holley's technical positions, from his podcast and X posts:
-  - Salesforce beats HubSpot for AI tooling ("Salesforce mogs Hubspot").
-  - Claude Code setups for GTM work.
-  - A rollback script that saves each contact's prior state before AI enrichment.
-  - "API completeness is the buying criteria now."
-  - Sources: [X post](https://x.com/BenyaminHolley/status/2103194454056206584); [X post](https://x.com/BenyaminHolley/status/2087969440730169345); [the gtm engineer Substack](https://thegtmengineer.substack.com/p/full-stack-gtm-engineering-with-benyamin)
-- YouTube video "I Make $50K Selling AI to Boring Businesses". The snippet describes Michael Slawson as president of Apero Advisors, who helps lower-middle-market B2B companies build GTM systems. Content and date were not retrieved. — [YouTube](https://www.youtube.com/watch?v=XTYu9J2g4fE)
+**Site-verified (25 Oct 2026)**
+- Tagline and pitch: "GTM engineering for complex markets." "We work with B2B teams to understand how their business actually works, then build the data, systems, workflows, and operating motions that make growth repeatable." — [Apero home](https://aperoadvisors.com/)
+- **Four layers:** Accounts; Channels (email, phone, LinkedIn, dinners, conferences, webinars, **SEO/AEO**, founder content); Messaging; System (CRM plus agentic workflows and automations). — [Apero home](https://aperoadvisors.com/)
+- **Capabilities:** market construction; incumbent intelligence; signal systems (projects, permits, hiring, funding, ownership changes into CRM); CRM and revenue systems; outbound systems; lifecycle and expansion; embedded GTM engineering. — [Apero home](https://aperoadvisors.com/)
+- **Example stack:** Apollo / Clay / Google Maps scraping; Kixie / Smartlead / HubSpot Sequences; HubSpot CRM; custom scoring / lead routing / dial list refresh. Labeled **"HubSpot shop, calling-led"**. — [Apero home](https://aperoadvisors.com/)
+- **PE page:** build-and-transfer for portcos; scopes bounded to pricing-page motions; dialer examples include Nooks or Kixie. — [Apero private equity](https://aperoadvisors.com/private-equity)
+- CTA gates on work email; contact `ben@aperoadvisors.com`. — [Apero home](https://aperoadvisors.com/)
+- **Deeper stack (26 Oct):** EmailBison + EmailGuard (not main domain); Lemlist for warm/LinkedIn; Nooks/Kixie dialers; Cursor/Claude Code apps (Network Miner, reply agent, CRM Health, MUTHUR Slack CRM); Grok Bot; CRMs HubSpot/Salesforce/Attio; build-operate-transfer; month-to-month; 24h SLA; $7.5k/mo floor explicitly steers list-only buyers to Clay agencies. — see `services_intel.md`
+
+**Off-site (22 Oct 2026 search pass)**
+- Slawson's four pillars and handoff SLAs — [[A] Growth Ventures Podcast](https://azariangrowthagency.com/a-growth-ventures-podcast/michael-slawson-gtm-systems/) (May 2026)
+- "Cold Email Alone Doesn't Work" — [Outbound Wizards (iVoox)](https://www.ivoox.com/en/cold-email-alone-doesn8217t-work-ft-michael-slawson-audios-mp3_rf_170490743_1.html) (Mar 2026)
+- Maven paid Clay courses and free lightning lessons — [Maven](https://maven.com/michael-slawson)
+- Holley on Claude Code / Salesforce vs HubSpot — [X](https://x.com/BenyaminHolley/status/2103194454056206584); [the gtm engineer](https://thegtmengineer.substack.com/p/full-stack-gtm-engineering-with-benyamin)
+- YouTube title "I Make $50K Selling AI to Boring Businesses" featuring Slawson — [YouTube](https://www.youtube.com/watch?v=XTYu9J2g4fE) (content not retrieved)
 
 ### Inferences
-- **Overlap with us.** Apero's core offer overlaps heavily with our services in outbound/lead gen, GTM engineering (Clay, enrichment, scoring, AI workflows) and CRM/RevOps.
-- **Where Apero differs:**
-  - It is HubSpot-centric and calling-led (Kixie).
-  - It is shifting toward AI-agent and Claude Code builds.
-  - It has PE-specific offers: deal origination and post-acquisition GTM.
-- **Their gaps.** No n8n mention was found in Apero's own service copy; n8n appears only in the hiring post described in the brief. No food/hospitality or local-SMB offer was found.
-- **"Boring businesses".** The video title suggests Apero markets to traditional, non-tech businesses. This overlaps with our "traditional SMEs" segment, but the framing is lower-middle-market and sponsor-backed, not small local businesses.
+- **Overlap with us:** outbound/lead gen, Clay-style GTM engineering, CRM/RevOps.
+- **Where Apero differs:** HubSpot + calling-led; PE portco and fund-origination packaging; published premium floors (see §6); SEO/AEO listed as a channel, not as a website/ads agency offer.
+- **Their gaps vs our segments:** no food/hospitality or local-SMB packaging; no n8n in public service copy (n8n only in the unverified hiring post).
 
 ### Gaps
-- No public list of packages, deliverables or SLAs was seen off-site.
-- No Apero LinkedIn company-page posts were indexed.
-- The content of the "$50K Selling AI to Boring Businesses" video was not retrieved.
+- Exact SLAs, deliverable checklists and contract length beyond directional pricing tiers are not on the public pages.
+- No Apero LinkedIn company-page posts were indexed in the Oct 22 pass.
+- The "$50K Selling AI to Boring Businesses" video body was not retrieved.
 
 ## 3. Who they serve, and the proof they show
 
 ### Takeaway
-Apero targets lower-middle-market and sponsor/PE-backed B2B companies, vertical vendors in "complex markets", early commercial teams, and PE/investment funds that need deal origination. All visible proof is US-oriented and B2B. There is **no evidence** of a Gulf/Middle East, food/hospitality or local-consumer-business focus. The proof consists of two named testimonials (one quantified), a YC-client campaign anecdote and the founder's own revenue claims.
+Apero targets **vertical vendors in complex markets** (site names environmental services and life sciences), **growth PE- and VC-backed operators** in the first two years after acquisition, **early commercial teams**, and **PE / private-credit funds** that need deal origination. Proof on the site includes four testimonials, logo clients, and two case-study headlines. All visible proof is US-oriented B2B. There is still **no evidence** of Gulf, food/hospitality or local-consumer focus.
 
 ### Cited Findings
-- Stated client types: "vertical vendors in complex markets", "growth PE-backed operators", "early commercial teams", and private-equity deal origination for funds. — [Apero home (search summary)](https://aperoadvisors.com/)
-- Slawson is described as building GTM systems for "sponsor-backed B2B companies" and "lower middle market B2B companies". — [Azarian podcast page](https://azariangrowthagency.com/a-growth-ventures-podcast/michael-slawson-gtm-systems/); [YouTube](https://www.youtube.com/watch?v=XTYu9J2g4fE)
-- **Testimonial: Jeremy Schneck, Trackstar.** "Michael and Apero's team were instrumental in helping us build and score our entire TAM against dozens of use cases. Then they helped us run cold outbound and conference outbound, which has generated hundreds of thousands in pipeline for us." — [Apero home (search snippet)](https://aperoadvisors.com/)
-  - GetLatka lists Jeremy Schneck as CEO/founder at trackstarhq.com. — [GetLatka](https://getlatka.com/companies/trackstarhq.com/contacts)
-- **Testimonial: Hans Liang, Unity Investments.** "We were starting from nothing: no list, no sequences, no system. Apero built the whole origination engine from scratch, and we were seeing reply rates around 40 percent. It changed where our deal flow comes from." — [Apero home (search snippet)](https://aperoadvisors.com/)
-- **Case anecdote: a Y Combinator client.**
-  - Apero used Disco to build a use-case-segmented company list, ran it through Clay to tag accounts and filter false positives, then ran simple founder-led LinkedIn outreach.
-  - The host notes Disco's semantic-similarity search works better than Sales Navigator for this.
-  - Source: [Outbound Wizards (iVoox)](https://www.ivoox.com/en/cold-email-alone-doesn8217t-work-ft-michael-slawson-audios-mp3_rf_170490743_1.html) (Mar 2026)
-- **Podcast titled "Professionalizing Sales at First Institutional Capital"** ([A] Growth Ventures, May 2026). It may describe a client engagement or past work; this was not confirmed. — [Azarian Growth Agency](https://azariangrowthagency.com/a-growth-ventures-podcast/michael-slawson-gtm-systems/); [YouTube](https://www.youtube.com/watch?v=9VUg3aEclvU)
-- **Founder track-record claims:**
-  - "Grew it to seven figures as a solopreneur." — [Apero About](https://aperoadvisors.com/about)
-  - "$0 to $1M in revenue, 50 engagements in under two years." — [Maven](https://maven.com/michael-slawson), as relayed in the search summary
-  - Maven also says he "built and sold a 7-figure agency". This conflicts with him still running Apero; it may refer to an earlier exit, or it may be loose copy. — [Maven](https://maven.com/michael-slawson)
-- Other wins credited to the team are from their past employers, not Apero clients: Clipboard Health 5x, Hum Capital origination, Holley's AirOps lead magnets. — [Apero About](https://aperoadvisors.com/about); [the gtm engineer](https://thegtmengineer.substack.com/p/full-stack-gtm-engineering-with-benyamin)
+**Site-verified (25 Oct 2026)**
+- Who we help: vertical vendors; growth PE- and VC-backed operators; early commercial teams; private equity / deal origination for funds. Vertical chips: Environmental services, Life sciences, SaaS. — [Apero home](https://aperoadvisors.com/)
+- Logo strip includes Applied Systems, ArtLogic, Clientbook, Trackstar, Y Combinator, Serent Capital. — [Apero home](https://aperoadvisors.com/)
+- Testimonials: Jeremy Schneck (Trackstar); Max Yelsky, CRO at The Edge; Evan Rosenburgh, Operating Executive at Stayterra (portfolio rollout); Hans Liang, Unity Investments (~40% reply rates). — [Apero home](https://aperoadvisors.com/)
+- Case studies: private-credit fund deal origination — **$300M+** origination volume, ~35% reply; Trackstar — **~7 figures** pipeline from outbound. — [Apero case studies](https://aperoadvisors.com/case-studies)
+- PE FAQ: published PE case study is fund origination, not a buyout portco. — [Apero private equity](https://aperoadvisors.com/private-equity)
+
+**Off-site**
+- YC client Disco + Clay anecdote — [Outbound Wizards](https://www.ivoox.com/en/cold-email-alone-doesn8217t-work-ft-michael-slawson-audios-mp3_rf_170490743_1.html)
+- Sponsor-backed / lower-middle-market framing on podcasts — [Azarian](https://azariangrowthagency.com/a-growth-ventures-podcast/michael-slawson-gtm-systems/)
+- Founder claims: seven figures as solopreneur — [About](https://aperoadvisors.com/about); "$0 to $1M… 50 engagements in under two years" — [Maven](https://maven.com/michael-slawson) (self-reported)
 
 ### Inferences
-- **Who they actually serve.** Their visible clients look like US venture-backed B2B tech (Trackstar, which is probably a logistics/WMS API startup, and a YC startup) and small investment firms (Unity Investments). This sits closer to "B2B tech + PE" than to our food, local-SMB and traditional-SME segments.
-- **Geography.** No non-US markets are mentioned in any client proof. Gulf, UK/IE, EU and AU/NZ look uncontested by Apero, as far as public evidence shows.
-- **Possible overlap with us.** Google Maps scraping in their account-sourcing stack shows they can build lists of SMB and local businesses. "Boring businesses" content shows interest in traditional sectors, so some overlap with our traditional-SME and B2B-services segments is likely in the US.
-- **Strength of the proof.** It is thin and self-published: two testimonials, one quantified only vaguely ("hundreds of thousands in pipeline") and one with a ~40% reply rate. There are no third-party reviews (Clutch/G2) and no published case studies were found.
+- Closest customer overlap with us is traditional / vertical B2B and PE-adjacent US operators — not food, local SMB or Gulf.
+- Proof is stronger than the Oct 22 sketch (case-study metrics + four quotes) but still mostly self-published; no Clutch/G2 found in the earlier pass.
 
 ### Gaps
-- No full client list, logos or published case studies were found off-site.
-- The "Trackstar" in the testimonial was not confirmed to be trackstarhq.com. The search tool's summary also said it could not confirm a YC link.
-- Unity Investments could not be identified with certainty.
-- There is no information on deal sizes, contract length or retention.
+- Full case-study bodies not pasted into notes (only listing-page headlines).
+- Founding year and legal entity still unknown.
+- Deal sizes / contract length still not on public pages beyond pricing tiers.
 
 ## 4. Partner / expert directory listings
 
@@ -200,23 +182,28 @@ Apero already uses overseas GTM engineers. Pakistan (Saad Muzaffar, Islamabad) a
 ## 6. Pricing and engagement-model signals
 
 ### Takeaway
-No public prices were found. Indirect signals point to boutique, project-plus-embedded engagements: a "small number of clients", about 50 engagements producing about $1M in under two years, and "embedded GTM engineering capacity". Paid Maven courses add an education revenue line.
+Apero **publishes directional pricing**. Two tiers: **Single-Channel Build** from **$15k** setup and **$7,500/mo** ongoing; **Embedded GTM Engineering** from **$50k+** implementation and **$20k+/mo** retainer. SDR capacity, data licenses, dialer seats and ad spend are priced separately. The older ~$20k-per-engagement average from Maven is a crude mix of project and retainer work; published floors sit at or above typical SME budgets.
 
 ### Cited Findings
-- Slawson describes "a boutique GTM advisory model focused on a small number of clients." — [Outbound Wizards (iVoox)](https://www.ivoox.com/en/cold-email-alone-doesn8217t-work-ft-michael-slawson-audios-mp3_rf_170490743_1.html) (Mar 2026)
-- "$0 to $1M in revenue, 50 engagements in under two years." — [Maven](https://maven.com/michael-slawson) (via search summary)
-- "Embedded GTM engineering capacity" is listed as a service, and the site offers ongoing embedded engineering support. — [Apero home (search summary)](https://aperoadvisors.com/)
-- Paid multi-day Maven courses (TAM sourcing; Deal Intelligence) exist, but no prices or cohort dates were shown in the results. — [Maven](https://maven.com/michael-slawson)
-- ZoomInfo estimates revenue under $5M. — [ZoomInfo](https://www.zoominfo.com/c/apero-advisors/1338932832)
+**Site-verified (25 Oct 2026)**
+- "Directional ranges, not list prices"; final pricing after a working session. — [Apero pricing](https://aperoadvisors.com/pricing)
+- **Single-Channel Build:** setup from **$15k**; ongoing from **$7,500/mo** (one bottleneck channel plus strategic consulting). — [Apero pricing](https://aperoadvisors.com/pricing)
+- **Embedded GTM Engineering:** implementation **$50k+**; retainer **$20k+/mo** (multi-channel layer, CRM rebuilds, signals, board reporting, portco playbooks, embedded engineers). — [Apero pricing](https://aperoadvisors.com/pricing)
+- Usually separate: dedicated SDR/calling; data licenses; dialer seats; ad spend / paid media. — [Apero pricing](https://aperoadvisors.com/pricing)
+- Same tiers apply to PE work. — [Apero private equity](https://aperoadvisors.com/private-equity)
+
+**Off-site**
+- Boutique "small number of clients" — [Outbound Wizards](https://www.ivoox.com/en/cold-email-alone-doesn8217t-work-ft-michael-slawson-audios-mp3_rf_170490743_1.html)
+- "$0 to $1M in revenue, 50 engagements in under two years" (~$20k average) — [Maven](https://maven.com/michael-slawson)
+- ZoomInfo revenue under $5M estimate — [ZoomInfo](https://www.zoominfo.com/c/apero-advisors/1338932832)
 
 ### Inferences
-- **Average engagement value.** $1M across about 50 engagements is roughly **$20K per engagement**. This is a crude average that mixes one-off builds and retainers, but it suggests mid-five-figure projects or multi-month retainers. That is above typical small-business budgets in our food and local-SMB segments.
-- **Likely model.** Scoped builds (TAM/list build, outbound infrastructure, CRM setup) followed by a monthly "embedded GTM engineer" retainer, i.e. a fractional GTM engineer.
-- **Courses as a funnel.** Maven courses and free lightning lessons probably work as lead gen and trust-building as well as revenue.
+- Published floors put Apero in PE / lower-middle-market budget territory, not restaurant or local-SMB retainers.
+- Model = scoped build then embedded retainer; Maven courses remain a second revenue / funnel line.
 
 ### Gaps
-- No rate card, retainer price, minimum engagement, contract length or pricing page was found off-site.
-- The $1M / 50-engagement figure is a single self-reported claim relayed by the search summary and was not read on the Maven page itself.
+- Exact package SLAs and minimum contract months beyond "directional" language are not a full rate card.
+- Maven $1M / 50 figure remains a single self-reported claim.
 
 ## 7. Content and social presence
 
